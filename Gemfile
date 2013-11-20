@@ -37,7 +37,7 @@ end
 gem 'seed-fu' , github: 'SamSaffron/seed-fu'
 
 if rails4?
-  gem 'rails', github: 'rails/rails', branch: 'master'
+  gem 'rails', github: 'chancancode/rails', branch: 'json_encoder_refactor'
   gem 'redis-rails', :git => 'git://github.com/SamSaffron/redis-store.git'
   gem 'rails-observers'
   gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching', branch: 'master'

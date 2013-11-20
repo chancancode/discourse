@@ -31,9 +31,9 @@ GIT
     arel (5.0.0.20131118174145)
 
 GIT
-  remote: git://github.com/rails/rails.git
-  revision: 93c74e1b4d70dd1fab0c48da92c2dc05cc9338f4
-  branch: master
+  remote: git://github.com/chancancode/rails.git
+  revision: 262e2e1188c65cd83183e9e218dd58411ddd9fbf
+  branch: json_encoder_refactor
   specs:
     actionmailer (4.1.0.beta)
       actionpack (= 4.1.0.beta)
