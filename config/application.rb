@@ -165,5 +165,9 @@ module Discourse
       require 'rbtrace'
     end
 
+    if rails_master?
+      config.active_record.raise_in_transactional_callbacks = true
+    end
+
   end
 end
