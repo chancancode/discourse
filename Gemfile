@@ -16,11 +16,11 @@ if rails_master?
   gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'
   gem 'seed-fu', git: 'https://github.com/SamSaffron/seed-fu.git', branch: 'discourse'
 elsif rails_42?
-  gem 'rails', '~> 4.2.1'
+  gem 'rails', '~> 4.2.3.rc1'
   gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'
   gem 'seed-fu', '~> 2.3.5'
 else
-  gem 'rails', '~> 4.1.10'
+  gem 'rails', '~> 4.1.12.rc1'
   gem 'rails-observers'
   gem 'seed-fu', '~> 2.3.3'
 end
